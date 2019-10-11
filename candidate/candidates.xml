@@ -1,0 +1,144 @@
+<!--
+   Author: Joseph Saad
+   Date: 28/08/2019 
+   
+   New Perspectives on XML 3rd Edition
+   Tutorial 6
+   Case Problem 1
+
+   List of Congressional Candidates
+
+   Filename:         candidates.xml
+   Supporting Files: 
+
+-->
+<candidates>
+	<candidate candidateID="DFL1">
+		<name>Sanchez, Onita</name>
+		<party>D</party>
+	</candidate>
+	<candidate candidateID="DFL2">
+		<name>Berk, Thomas</name>
+		<party>D</party>
+	</candidate>
+	<candidate candidateID="DFL3">
+		<name>Thomas, Howard</name>
+		<party>D</party>
+	</candidate>
+		<candidate candidateID="DFL4">
+		<name>Sweet, Alice</name>
+	<party>D</party>
+	</candidate>
+	<candidate candidateID="DFL5">
+		<name>Aitkens, Mary</name>
+		<party>D</party>
+	</candidate>
+	<candidate candidateID="DFL6">
+		<name>Nielsen, Kevin</name>
+		<party>D</party>
+	</candidate>
+	<candidate candidateID="DFL7">
+		<name>Pulaski, Stewart</name>
+		<party>D</party>
+	</candidate>
+	<candidate candidateID="DFL8">
+		<name>Venn, Michael</name>
+		<party>D</party>
+	</candidate>
+	<candidate candidateID="REP1">
+		<name>Troutman, Rachel</name>
+		<party>R</party>
+	</candidate>
+	<candidate candidateID="REP2">
+		<name>Chiang, Michael</name>
+		<party>R</party>
+	</candidate>
+	<candidate candidateID="REP3">
+		<name>Olsen, Fred</name>
+		<party>R</party>
+	</candidate>
+	<candidate candidateID="REP4">
+		<name>Grovener, Stewart</name>
+		<party>R</party>
+	</candidate>
+	<candidate candidateID="REP5">
+		<name>Mundleberg, Linda</name>
+		<party>R</party>
+	</candidate>
+	<candidate candidateID="REP6">
+		<name>Francis, Trevor</name>
+		<party>R</party>
+	</candidate>
+	<candidate candidateID="REP7">
+		<name>Biersen, Nancy</name>
+		<party>R</party>
+	</candidate>
+	<candidate candidateID="REP8">
+		<name>Ramirez, Juan</name>
+		<party>R</party>
+	</candidate>
+	<candidate candidateID="IND1">
+		<name>Whitman, Gary</name>
+		<party>I</party>
+	</candidate>
+	<candidate candidateID="IND2">
+		<name>Larson, Alicia</name>
+		<party>I</party>
+	</candidate>
+	<candidate candidateID="IND3">
+		<name>Shapiro, Douglas</name>
+		<party>I</party>
+	</candidate>
+	<candidate candidateID="IND4">
+		<name>Reardin, Samuel</name>
+		<party>I</party>
+	</candidate>
+	<candidate candidateID="IND5">
+		<name>Ketrick, Rachel</name>
+		<party>I</party>
+	</candidate>
+	<candidate candidateID="IND6">
+		<name>Inglessohn, Ray</name>
+		<party>I</party>
+	</candidate>
+	<candidate candidateID="IND7">
+		<name>Pope, Richard</name>
+		<party>I</party>
+	</candidate>
+	<candidate candidateID="IND8">
+		<name>Zander, Audry</name>
+		<party>I</party>
+	</candidate>
+	<candidate candidateID="WI1">
+		<name>Other</name>
+		<party>O</party>
+	</candidate>
+	<candidate candidateID="WI2">
+		<name>Other</name>
+		<party>O</party>
+	</candidate>
+	<candidate candidateID="WI3">
+		<name>Other</name>
+		<party>O</party>
+	</candidate>
+	<candidate candidateID="WI4">
+		<name>Other</name>
+		<party>O</party>
+	</candidate>
+	<candidate candidateID="WI5">
+		<name>Other</name>
+		<party>O</party>
+	</candidate>
+	<candidate candidateID="WI6">
+		<name>Other</name>
+		<party>O</party>
+	</candidate>
+	<candidate candidateID="WI7">
+		<name>Other</name>
+		<party>O</party>
+	</candidate>
+	<candidate candidateID="WI8">
+		<name>Other</name>
+		<party>O</party>
+	</candidate>
+</candidates>

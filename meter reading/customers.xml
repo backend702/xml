@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+This file will not have any links to the xsl file, but will link to the cusmoters.xsd file for validation.
+ -->
+<?xml-stylesheet type="text/xsl" version="1.0" href="create_bills.xsl"?>
+
+	<customers
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="customers.xsd">
+	
+		<customer number="BL343456">
+			<meternumber>134456</meternumber>
+			<name title="">
+				<first>Bart</first>
+				<middle></middle>
+				<last>Simpson</last>
+			</name>
+			<address>
+				<street>45 Olive dr</street>
+				<suburb>Sydney</suburb>
+				<postcode>2000</postcode>
+				<state>NSW</state>
+			</address>
+			<phone>
+				<number>0298576433</number>
+				<number>0413335678</number>
+				<number>0296784455</number>
+			</phone>
+			<payment date="29/11/2017">
+				<reading>62990</reading>
+				<amountdue>0</amountdue>
+				<paydate>new acc</paydate>
+				<paid></paid>
+			</payment>
+			<payment date="28/02/2018">
+				<reading>64492</reading>
+				<amountdue>242.21</amountdue>
+				<paydate>30/03/2018</paydate>
+				<paid>242.21</paid>
+			</payment>
+			<payment date="29/05/2018">
+				<reading>65374</reading>
+				<amountdue>157.23</amountdue>
+				<paydate>24/06/2018</paydate>
+				<paid>157.23</paid>
+			</payment>
+			<payment date="29/08/2018">
+				<reading>66348</reading>
+				<amountdue>170.60</amountdue>
+				<paydate>19/09/2018</paydate>
+				<paid>170.60</paid>
+			</payment>
+		</customer>
+		<customer number="TR567903">
+			<meternumber>342566</meternumber>
+			<name title="">
+				<first>Donald</first>
+				<middle></middle>
+				<last>Duck</last>
+			</name>
+			<address>
+				<street>12 Grey place</street>
+				<suburb>Sometown</suburb>
+				<postcode>9876</postcode>
+				<state>NSW</state>
+			</address>
+			<phone>
+				<number>0432226677</number>
+			</phone>
+			<payment date="29/08/2018">
+				<reading>28132</reading>
+				<amountdue>0</amountdue>
+				<paydate>new acc</paydate>
+				<paid>0</paid>
+			</payment>
+		</customer>
+		<customer number="VL305888">
+			<meternumber>234567</meternumber>
+			<name title="Ms">
+				<first>Minni</first>
+				<middle></middle>
+				<last>Mouse</last>
+			</name>
+			<address>
+				<street>368 King St</street>
+				<suburb>Cartooncity</suburb>
+				<postcode>5678</postcode>
+				<state>NSW</state>
+			</address>
+			<phone>
+				<number>0445566543</number>
+				<number>0688763344</number>
+			</phone>
+			<payment date="29/05/2018">
+				<reading>998</reading>
+				<amountdue>0</amountdue>
+				<paydate>new acc</paydate>
+				<paid></paid>
+			</payment>
+			<payment date="29/08/2018">
+				<reading>998</reading>
+				<amountdue>34.32</amountdue>
+				<paydate>16/09/2018</paydate>
+				<paid>34.32</paid>
+			</payment>
+		</customer>
+	</customers>
+				
+					
+						
+			
+		

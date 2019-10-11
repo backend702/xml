@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+	In this file you define the legal building blocks and legal content of customers.xsd
+ -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xmlns="http://www.w3schools.com"
+elementFormDefault="qualified">
+
+	<xs:element name="customers">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="customer" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="meternumber">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:pattern value="([0-9])+"/>
+										<xs:minLength value="5"/>
+										<xs:maxLength value="8"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="name">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="first" type="xs:string" />
+										<xs:element name="middle" type="xs:string" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="last" type="xs:string" />
+									</xs:sequence>
+									<xs:attribute name="title" type="xs:string" />
+
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="address">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="street" type="xs:string" />
+										<xs:element name="suburb" type="xs:string" />
+										<xs:element name="postcode">
+											<xs:simpleType>
+												<xs:restriction base="xs:integer">
+													<xs:pattern value="[0-9]{4}"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="state">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:pattern value="NSW|QLD|VIC|NT|ACT|SA|WA|TAS"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="phone">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="number" minOccurs="0" maxOccurs="3">
+											<xs:simpleType>
+												<xs:restriction base="xs:integer">
+													<xs:pattern value="[0-9]{10}"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="payment" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="reading" type="xs:integer" />
+										<xs:element name="amountdue" type="xs:decimal" />
+										<xs:element name="paydate" type="xs:string" />
+										<xs:element name="paid" type="xs:string" nillable="true"/>
+									</xs:sequence>
+									<xs:attribute name="date" type="xs:string" use="required"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="number" use="required">
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:pattern value="[A-Z][A-Z][0-9][0-9][0-9][0-9][0-9][0-9]"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>
